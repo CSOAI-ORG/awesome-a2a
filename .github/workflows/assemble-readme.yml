@@ -5,6 +5,7 @@ on:
     paths:
       - '.readme-chunks/**'
       - '.github/workflows/assemble-readme.yml'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -14,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Assemble README.md
         run: |
-          cat .readme-chunks/p* > README.md
+          cat .readme-chunks/p{01..18} > README.md
           test $(wc -c < README.md) -gt 140000
           grep -q "Council of AI" README.md
       - name: Commit assembled README
