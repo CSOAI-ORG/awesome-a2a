@@ -1,11 +1,4 @@
-— Independent AI-governance measurement body (CSOAI Ltd, UK 16939677). GSPC 14-slot board (13 measured of 14), Ed25519-signed evidence, free offline verify. Measurement, not certification.
-    *   Agent card (A2A v1.0): https://councilof.ai/.well-known/agent-card.json
-    *   JSON-RPC: `POST https://councilof.ai/api/mcp` (`tools/list`, `tools/call`)
-    *   Full manifest: https://councilof.ai/.well-known/agent.json
-    *   DOI: https://doi.org/10.5281/zenodo.21991104
-
-## 🎬 Demos & Examples
-
+ent GSPC governance measurement agent (13 measured of 14 axes, Ed25519-signed board, stranger verify at /gspc-verify). [Agent card](https://councilof.ai/.well-known/agent-card.json)
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
 *   🎥 [Official Demo Video (Section Link)](https://github.com/a2aproject/A2A#see-a2a-in-action) - Link to the video embedded in the official repository's README.
 *   💻 [Agent2Agent (A2A) Samples](https://github.com/a2aproject/a2a-samples) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-samples?style=social)](https://github.com/a2aproject/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
@@ -24,4 +17,5 @@
 ## 🔗 Related Protocols & Concepts
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
-*   📬 [AAMP (Agent Asynchronous Messaging Protocol)](https://github.com/larksuite/aamp) by [@larksuite](https://github.com/larksuite) [![Stars](https://img.shields.io/github/stars/larksuite/aamp?style=social)](https://github.com/larksuite/aamp) - Mailbox-native open protocol and SDKs (Go, Node.js, Python) for asynchronous agent-to-agent collaboration over email/SMTP and JMAP. Complements re
+*   📬 [AAMP (Agent Asynchronous Messaging Protocol)](https://github.com/larksuite/aamp) by [@larksuite](https://github.com/larksuite) [![Stars](https://img.shields.io/github/stars/larksuite/aamp?style=social)](https://github.com/larksuite/aamp) - Mailbox-native open protocol and SDKs (Go, Node.js, Python) for asynchronous agent-to-agent collaboration over email/SMTP and JMAP. Complements real-time A2A with durable, store-and-forward messaging and universal addressing.
+*   🌐 [Cotal](https://github.com/Cotal-AI/Cotal) by [@Cotal-AI](https://github.com/Cotal-AI) [![Stars](https://img.shields.io/github/stars/Cotal-AI/Cotal?style=social)](https://github.com/Cotal-AI/Cotal) - The open pub/sub standard fo
