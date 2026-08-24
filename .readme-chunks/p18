@@ -1,0 +1,39 @@
+al-time A2A with durable, store-and-forward messaging and universal addressing.
+*   🌐 [Cotal](https://github.com/Cotal-AI/Cotal) by [@Cotal-AI](https://github.com/Cotal-AI) [![Stars](https://img.shields.io/github/stars/Cotal-AI/Cotal?style=social)](https://github.com/Cotal-AI/Cotal) - The open pub/sub standard for AI agent coordination. Complements A2A's pairwise request/response with many-to-many multicast, unicast, and anycast messaging across distributed agent topologies (peers, supervisors, pipelines, swarms). Built on NATS/JetStream; reference implementation in TypeScript with CLI, web UI, and connectors for Claude Code, Codex, OpenCode, and Hermes. Apache 2.0.
+*   📡 [A2A Events](https://github.com/a2a-events/a2a-events) by [@a2a-events](https://github.com/a2a-events) - AgentCard-native durable event-subscription protocol extension for A2A v1.0. Lets agents subscribe to another agent's future events via AgentCard discovery, explicit topics, leases, cursors, acknowledgements, replay, and signed delivery. Includes JSON schemas, conformance vectors, and a Python reference runtime. MIT licensed.
+*   🔌 [Agent Plugins](https://github.com/agentplugins/agent-plugins-spec) by [@agentplugins](https://github.com/agentplugins) [![Stars](https://img.shields.io/github/stars/agentplugins/agent-plugins-spec?style=social)](https://github.com/agentplugins/agent-plugins-spec) - Open, vendor-neutral specification for packaging Agent Skills and MCP servers into distributable plugins with a standardized `plugin.json` manifest and directory layout. Complements A2A by providing a portable packaging layer for agent capabilities; backed by maintainers from Amazon, Cursor, Microsoft, OpenAI, and Vercel. ([Website](https://agent-plugins.org/))
+*   📰 [Agent Plugins package your skills, tools, and more](https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/) - Official August 2026 Google Developers Blog post announcing Agent Plugins 1.0.0, a vendor-neutral specification backed by Google, Amazon, Microsoft, and others for packaging Agent Skills and MCP servers into portable plugins.
+*   🔍 [Lingua Universale](https://github.com/rafapra3008/cervellaswarm) by [@rafapra3008](https://github.com/rafapra3008) - Formal verification DSL for AI agent protocols using multiparty session types. Complementary to A2A: verify message sequence correctness at spec time..
+*   🧭 [Pilot Protocol](https://github.com/pilot-protocol/pilotprotocol) by [@pilot-protocol](https://github.com/pilot-protocol) [![Stars](https://img.shields.io/github/stars/pilot-protocol/pilotprotocol?style=social)](https://github.com/pilot-protocol/pilotprotocol) - The network stack for AI agents: overlay network giving agents permanent addresses, authenticated encrypted UDP tunnels, NAT traversal, and a trust model. Includes an IETF Internet-Draft and a Go reference implementation with 1000+ tests. AGPL-3.0.
+*   🛡️ [Agora](https://github.com/openziti/agora) by [@openziti](https://github.com/openziti) [![Stars](https://img.shields.io/github/stars/openziti/agora?style=social)](https://github.com/openziti/agora) - Zero-trust overlay network for governed agent-to-agent communication, built on OpenZiti. Provides cryptographic identity, discovery, policy, session governance, and auditable collaboration across organizational boundaries while remaining A2A-compatible at the protocol layer. Apache 2.0.
+*   📡 [IronMesh](https://github.com/WizTheAgent/IronMesh) by [@WizTheAgent](https://github.com/WizTheAgent) [![Stars](https://img.shields.io/github/stars/WizTheAgent/IronMesh?style=social)](https://github.com/WizTheAgent/IronMesh) - Local-first, end-to-end encrypted mesh protocol for AI agents. Zero-config LAN discovery, optional LoRa transport, and offline operation with no cloud. MIT licensed and published on PyPI as `ironmesh`.
+*   🌐 [AI Agent Protocol (W3C CG)](https://github.com/w3c-cg/ai-agent-protocol) by [@w3c-cg](https://github.com/w3c-cg) [![Stars](https://img.shields.io/github/stars/w3c-cg/ai-agent-protocol?style=social)](https://github.com/w3c-cg/ai-agent-protocol) - W3C Community Group white paper and specification for an Agent Network Protocol (ANP), exploring cross-protocol interoperability for AI agents (A2A, MCP, ACP, etc.).
+*   🔎 [Agentic Resource Discovery (ARD)](https://github.com/ards-project/ard-spec) by [@ards-project](https://github.com/ards-project) [![Stars](https://img.shields.io/github/stars/ards-project/ard-spec?style=social)](https://github.com/ards-project/ard-spec) - Open specification for finding and verifying tools, skills, and agents across the web. Announced on the [Google Developers Blog](https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/) in June 2026; complements A2A Agent Card discovery with a web-scale catalog and verification model. ([Website](https://agenticresourcediscovery.org/))
+*   🧠 [Universal Memory Protocol (UMP)](https://github.com/edihasaj/universal-memory-protocol) by [@edihasaj](https://github.com/edihasaj) [![Stars](https://img.shields.io/github/stars/edihasaj/universal-memory-protocol?style=social)](https://github.com/edihasaj/universal-memory-protocol) - Open standard for portable agent memory. Described as the third interop layer beside MCP (tools) and A2A (coordination), with MCP/HTTP bindings and a reference TypeScript implementation. Stable v1.0. ([Website](https://universalmemoryprotocol.io))
+*   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
+
+## 💬 Community
+
+*   🐞 [A2A GitHub Issues](https://github.com/a2aproject/A2A/issues) - For reporting bugs or suggesting protocol improvements.
+*   💬 [A2A GitHub Discussions](https://github.com/a2aproject/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
+*   🔒 [Private Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - Google form for private feedback.
+
+---
+
+**Let's Make Awesome A2A More Useful, Together!**
+
+A2A is still pretty new, and good resources or practical tips can be scattered. We created this list to bring the good stuff together, making it easier for everyone to find, learn, and reference.
+
+Keeping this list high-quality and up-to-date relies on the community:
+
+*   ⭐ **Star it**: If you find it useful, it's a great way to show support and makes it easy to find later.
+*   ➕ **Share what you find**: Found a great library, article, tool, or even a common pitfall? Add it via an [Issue](https://github.com/ai-boost/awesome-a2a/issues) or [PR](CONTRIBUTING.md) – let's build this resource together.
+*   📣 **Spread the word**: Let others know about this list if they're exploring or working with A2A.
+
+Thanks for your interest and contributions!
+
+---
+
+## Contributing
+
+Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRIBUTING.md) first. Let's build this list together!
