@@ -1,0 +1,27 @@
+name: Assemble README
+on:
+  push:
+    branches: [add-council-of-ai]
+    paths:
+      - '.readme-chunks/**'
+      - '.github/workflows/assemble-readme.yml'
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble README.md
+        run: |
+          cat .readme-chunks/part* > README.md
+          test $(wc -c < README.md) -gt 140000
+          grep -q "Council of AI" README.md
+      - name: Commit assembled README
+        run: |
+          git config user.name "CSOAI-ORG"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "Add Council of AI — GSPC measurement agent (A2A v1.0)"
+          git push
