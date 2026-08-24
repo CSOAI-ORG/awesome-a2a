@@ -107,8 +107,7 @@ New to A2A? Here's a suggested path:
 
 *(See [How Does A2A Work?](#️-how-does-a2a-work-high-level) above for summaries)*
 
-*   📖 [A2A Technical Documentation](https://a2aproject.github.io/A2A/#/documentation) - **(Full Details)** Detai
-led explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
+*   📖 [A2A Technical Documentation](https://a2aproject.github.io/A2A/#/documentation) - **(Full Details)** Detailed explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
 *   📄 [JSON Specification](https://github.com/a2aproject/A2A/tree/main/specification/json) - The raw JSON schema definition for A2A structures.
 *   💡 [Key Principles (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=key-principles) - Link to the principles section in the official docs.
 *   🃏 [Agent Card Specification (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
