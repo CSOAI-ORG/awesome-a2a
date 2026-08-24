@@ -26,3 +26,4 @@ jobs:
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "Add Council of AI — GSPC measurement agent (A2A v1.0)"
           git push
+# assemble-trigger
