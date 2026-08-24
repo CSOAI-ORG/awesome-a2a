@@ -1,7 +1,7 @@
 led explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
 *   📄 [JSON Specification](https://github.com/a2aproject/A2A/tree/main/specification/json) - The raw JSON schema definition for A2A structures.
 *   💡 [Key Principles (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=key-principles) - Link to the principles section in the official docs.
-*   🎴 [Agent Card Specification (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
+*   🃏 [Agent Card Specification (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
 *   🗺️ [Agent Discovery (Topic)](https://a2aproject.github.io/A2A/#/topics/agent_discovery.md) - Discussion on how clients can find agent cards.
 *   🔔 [Push Notifications (Topic)](https://a2aproject.github.io/A2A/#/topics/push_notifications.md) - Details on the push notification mechanism.
 *   🛡️ [Enterprise Readiness (Topic)](https://a2aproject.github.io/A2A/#/topics/enterprise_ready.md) - Discussion on security, auth, privacy aspects.
