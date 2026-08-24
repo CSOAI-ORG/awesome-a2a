@@ -1,1 +1,1 @@
-TEST_PLACEHOLDER_SMALL
+test-small-verify
