@@ -1,1 +1,1 @@
-@/tmp/push_content.txt
+/tmp/push_content.txt
