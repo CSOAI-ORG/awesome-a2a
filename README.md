@@ -1,1 +1,1 @@
-PLACEHOLDER
+@file:/tmp/awesome-a2a-README.md
