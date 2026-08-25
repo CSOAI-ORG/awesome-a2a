@@ -1,1 +1,1 @@
-probe-small-write-test-delete-me
+LOAD_FROM_WORKSPACE
