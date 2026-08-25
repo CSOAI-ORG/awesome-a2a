@@ -1,1 +1,1 @@
-test50k
+test-small-mcp-write
