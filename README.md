@@ -1,1 +1,1 @@
-test-small-mcp-write
+PLACEHOLDER_100K_TEST
